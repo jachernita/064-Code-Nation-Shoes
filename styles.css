@@ -1,0 +1,71 @@
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+
+.imageHolder {
+    width: 298px;
+}
+
+.mainImage {
+    width: 298px;
+    height: 298px;
+    background-color: grey;
+}
+
+.shoe {
+    border-bottom: 2px solid transparent;
+    width: 65px;
+    height: 65px;
+}
+
+.shoe:hover {
+    border-bottom-color: black;
+    cursor: pointer;
+}
+
+.first {
+    background-color: grey;
+}
+
+.second {
+    background-color: cyan;    
+}
+
+.third {
+    background-color: lightgreen;    
+}
+
+.fourth {
+    background-color: orange;    
+}
+
+.imageCarousel {
+    display: flex;
+    justify-content: center;
+    background-color: #ECEEF0;
+    padding: 10px 0 10px 0;
+}
+
+.details {
+    margin-left: 10px;
+}
+
+.top {
+    color: #767677;
+    min-height: 17px;
+    margin-bottom: 15px;
+}
+
+.main {
+    height: 70px;
+}
+
+.bottom {
+    color: #767677;
+}
+
+p {
+    margin: 5px 0 5px 0;
+    padding: 0;
+}
